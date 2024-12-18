@@ -1,4 +1,4 @@
-# Rocket 4 SFOG
+# Rocket 4 SFOF
 
 This repository contains Structures Determenation Of Forces (SDOF). This is work in progress and is subject to change.
 
