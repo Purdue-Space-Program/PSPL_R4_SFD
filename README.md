@@ -7,29 +7,23 @@ The SDOF model uses the vehicle's geometry, mass properties, and flight conditio
 ## Filesystem Hierarchy
 
 ```plaintext
-└── PSPL_ROCKET_4_SDOF/
+.
+└── PSPL_R4_SDOF/
     ├── data/
     │   ├── inputs/
-    │   │   └── rocket_defining_inputs.xlsx
+    │   │   └── SFOF_inputs.xlsx
     │   └── outputs/
     │       └── YYYY-MM-DD_HH-MM-SS/
-    │           ├── possible_rockets.xlsx
-    |           └── rocket_defining_inputs.xlsx
+    │           ├── charts/
+    │           ├── SDOF_outputs.xlsx
+    │           └── SDOF_inputs.xlsx
     ├── scripts/
-    │   ├── combustion.py
-    │   ├── propulsion.py
-    │   ├── structural.py
-    │   ├── fluids.py
-    │   └── trajectory.py
-    ├── tests/
-    │   ├── test_combustion.py
-    │   ├── test_propulsion.py
-    │   ├── test_structural.py
-    │   ├── test_fluids.py
-    │   └── test_trajectory.py
-    ├── utils/
-    │   ├── clean_up.py
-    │   └── rocket_defining_input_handler.py
+    │   ├── aero.py
+    │   ├── axial.py
+    │   ├── shear.py
+    │   ├── bending.py
+    │   ├── dynamic.py
+    │   └── recovery.py
     ├── main.py
     ├── .gitignore
     ├── README.md
