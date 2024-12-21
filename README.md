@@ -1,8 +1,8 @@
-# Rocket 4 SFOF
+# Rocket 4 SFD
 
-This repository contains Structures Determenation Of Forces (SDOF). This is work in progress and is subject to change.
+This repository contains Structures Forces Determination (SFD). This is work in progress and is subject to change.
 
-The SDOF model uses the vehicle's geometry, mass properties, and flight conditions to compute compressive forces, shear forces, bending moments, and torsion at specific cross-sections of the rocket.
+The Structures Forces Determination model uses the vehicle's geometry, mass properties, and flight conditions to compute compressive forces, shear forces, bending moments, and torsion at specific cross-sections of the rocket.
 
 ## Filesystem Hierarchy
 
@@ -15,8 +15,8 @@ The SDOF model uses the vehicle's geometry, mass properties, and flight conditio
     │   └── outputs/
     │       └── YYYY-MM-DD_HH-MM-SS/
     │           ├── charts/
-    │           ├── SDOF_outputs.xlsx
-    │           └── SDOF_inputs.xlsx
+    │           ├── SFD_outputs.xlsx
+    │           └── SFD_inputs.xlsx
     ├── scripts/
     │   ├── aero.py
     │   ├── axial.py
@@ -42,7 +42,7 @@ git clone https://github.com/Purdue-Space-Program/PSPL_Rocket_4_SDOF.git
 2. Navigate to the repository
 
 ```bash
-cd PSPL_Rocket_4_SDOF
+cd PSPL_Rocket_4_SFD
 ```
 
 3. Create and activate a virtual environment
